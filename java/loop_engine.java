@@ -1,4 +1,6 @@
 import javax.swing.Timer;
+
+// loop engine class, uses timer to trigger every millisecond set for the TICK_MS value 
  
 public class loop_engine {
 

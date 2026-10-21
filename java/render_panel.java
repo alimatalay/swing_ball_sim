@@ -5,6 +5,9 @@ import java.awt.Graphics2D;
 import javax.swing.JPanel;
 import java.awt.Font;
 
+//Render class that extends JPanel. Initialized with object manager.
+//paintComponent is overriden for drawing plane and ball_list. In loop manager .repaint() method is called after physic calculations.
+
 public class render_panel extends JPanel{
 
     private object_manager objects;

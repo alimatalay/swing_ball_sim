@@ -1,3 +1,5 @@
+//simple 2D vector class with basic operations, needed for physic calculations
+
 public class Vector2D{
 
     public double x, y;

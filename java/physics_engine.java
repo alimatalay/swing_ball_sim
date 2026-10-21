@@ -1,5 +1,7 @@
 import java.util.List;
 
+// Physic class handles velocity, gravity, collison check
+
 public class physics_engine {
 
     private double gravity = 500;     //how many pixels per second^2

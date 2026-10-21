@@ -2,6 +2,8 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 
+// Object class for ball. Field with position, velocity for physics calculations, and color value for rendering.
+
 public class object_ball{
 
     public static double RADIUS = 20;   // same size for every ball. can be randomized for better visualization, static value for calculcations in physics_engine

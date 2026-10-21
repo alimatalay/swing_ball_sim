@@ -4,6 +4,8 @@ import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
 
+//Object manager class for plane and ball objects. Gets random color value for each ball on initialize.
+
 public class object_manager{
 
     public List<object_ball> ball_list = new ArrayList<>();

@@ -1,6 +1,8 @@
 import java.awt.Color;
 import java.awt.Graphics2D;
 
+//Plane object class, stands at the bottom of the screen as ground.
+
 public class object_plane {
 
     public int height = 40;

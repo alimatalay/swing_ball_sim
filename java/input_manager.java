@@ -6,6 +6,9 @@ import java.awt.Component;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 
+// Input manager class initialized with object manager and render_panel(JPanel)
+// Handles 'C' button clear function, window resize function, and add ball on list at cursor position on click.
+
 public class input_manager extends MouseAdapter{
 
     private object_manager objects;
